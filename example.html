@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>arrows</title>
+    <style>
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .player {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      background: #444;
+      border-radius: 50%;
+    }
+
+    .shadow {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      background: #ccc;
+      border-radius: 50%;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="shadow" class="shadow"></div>
+    <div id="player" class="player"></div>
+    <script src="build/build.js"></script>
+    <script src="example.js"></script>
+  </body>
+</html>

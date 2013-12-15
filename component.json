@@ -1,0 +1,17 @@
+{
+  "name": "arrows",
+  "repo": "entity/arrows",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "read arrow keys and shoot",
+  "keywords": ["game", "keys", "arrows", "controls", "directions", "motion"],
+  "author": "stagas",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "entity/keys": "*",
+    "yields/merge": "*"
+  },
+  "development": {
+    "component/raf": "*"
+  }
+}
