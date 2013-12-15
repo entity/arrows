@@ -29,8 +29,8 @@ document.body.onkeyup = k.onkeyup;
 
 function ctrl(){
   k & k.left  && left();
-  k & k.right && right();
   k & k.up    && up();
+  k & k.right && right();
   k & k.down  && down();
   k & k.shoot && shoot();
 }

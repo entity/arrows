@@ -51,8 +51,8 @@ player.jump = function(){
 
 player.ctrl = function(){
   k & k.left  && player.left();
-  k & k.right && player.right();
   k & k.up    && player.up();
+  k & k.right && player.right();
   k & k.down  && player.down();
   k & k.shoot && player.jump();
 };
